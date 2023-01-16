@@ -1,4 +1,4 @@
-const bot = new Bot("5100445974:AAEm5LXuKGP0A7ZYhhYHnUgbMpEWwUVaDfs", "-1001710448831");
+const bot = new Bot("5908382323:AAHxlPvfaoApwdSE3cYZ7dY61gx9svP0FBE", "1610118898");
  
 // bot.getUpdates()
 //   .then(res => {
