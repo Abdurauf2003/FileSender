@@ -1,0 +1,64 @@
+/* Default style template */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url("./logotpkit.png");
+    background-size: cover;
+    background-position: center;
+}
+ 
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+ 
+main .centered {
+    padding: 20px;
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    max-width: 400px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.164);
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+ 
+main .centered h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: #fff;
+}
+ 
+main .centered label {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    color: #fff;
+}
+ 
+main .centered label input {
+    width: 100%;
+    height: 40px;
+    border: #fff solid 1px;
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: .5rem;
+    margin-top: 2px;
+}
+ 
+main .centered .centered-submit {
+    width: 100%;
+    height: 35px;
+    border: #fff solid 1px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: 700;
+}
